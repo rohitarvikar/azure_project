@@ -14,6 +14,9 @@
 		"ls_adls_covidreportingdl_properties_typeProperties_url": {
 			"value": "https://covidreportingadl3580.dfs.core.windows.net/"
 		},
+		"ls_http_opendata_euro_ec_properties_typeProperties_url": {
+			"value": "@{linkedService().baseUrl}"
+		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"value": "/subscriptions/19c4d0c9-37f3-4aec-ae43-7927c83f9d65/resourceGroups/covid-reporting-resource-group/providers/Microsoft.Storage/storageAccounts/covidreportingsa1210"
 		},
