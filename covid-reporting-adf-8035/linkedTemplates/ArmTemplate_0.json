@@ -292,7 +292,8 @@
 								"referenceName": "ds_ecdc_file_list",
 								"type": "DatasetReference",
 								"parameters": {}
-							}
+							},
+							"firstRowOnly": false
 						}
 					},
 					{
