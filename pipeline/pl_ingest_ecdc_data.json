@@ -45,6 +45,10 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@activity('Lookup_Ecdc_File_List').output.value",
+						"type": "Expression"
+					},
 					"activities": [
 						{
 							"name": "Copy Files",
