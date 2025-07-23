@@ -1,0 +1,17 @@
+{
+	"name": "tr_ingest_population_data",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/population/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/19c4d0c9-37f3-4aec-ae43-7927c83f9d65/resourceGroups/suraj123/providers/Microsoft.Storage/storageAccounts/azureprojectsurajsa",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
