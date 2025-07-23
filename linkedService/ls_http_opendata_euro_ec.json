@@ -1,0 +1,17 @@
+{
+	"name": "ls_http_opendata_euro_ec",
+	"properties": {
+		"parameters": {
+			"baseUrl": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "@{linkedService().baseUrl}",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
