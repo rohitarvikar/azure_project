@@ -43,7 +43,11 @@
 						"referenceName": "ds_processed_hospital_admission_weekly",
 						"type": "DatasetReference"
 					},
-					"name": "WeeklySink"
+					"name": "WeeklySink",
+					"rejectedDataLinkedService": {
+						"referenceName": "ls_adls_covidreportingdl",
+						"type": "LinkedServiceReference"
+					}
 				}
 			],
 			"transformations": [
