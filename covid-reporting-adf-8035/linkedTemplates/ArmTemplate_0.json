@@ -93,6 +93,7 @@
 					"location": {
 						"type": "AzureBlobFSLocation",
 						"fileName": "country_lookup.csv",
+						"folderPath": "dim_country",
 						"fileSystem": "lookup"
 					},
 					"columnDelimiter": ",",
@@ -480,7 +481,7 @@
 					"location": {
 						"type": "AzureBlobFSLocation",
 						"fileName": "cases_deaths.csv",
-						"folderPath": "ecdc",
+						"folderPath": "ecdc/cases_deaths",
 						"fileSystem": "raw"
 					},
 					"columnDelimiter": ",",
@@ -546,7 +547,7 @@
 					"location": {
 						"type": "AzureBlobFSLocation",
 						"fileName": "hospital_admission.csv",
-						"folderPath": "ecdc",
+						"folderPath": "ecdc/hospital_admission",
 						"fileSystem": "raw"
 					},
 					"columnDelimiter": ",",
@@ -1124,7 +1125,11 @@
 								"referenceName": "ds_processed_hospital_admission_weekly",
 								"type": "DatasetReference"
 							},
-							"name": "WeeklySink"
+							"name": "WeeklySink",
+							"rejectedDataLinkedService": {
+								"referenceName": "ls_adls_covidreportingdl",
+								"type": "LinkedServiceReference"
+							}
 						}
 					],
 					"transformations": [
