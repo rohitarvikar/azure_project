@@ -6,8 +6,8 @@
 		"type": "AzureDatabricks",
 		"typeProperties": {
 			"domain": "https://adb-467781497357628.8.azuredatabricks.net",
-			"existingClusterId": "covid_transformation_cluster_population_01",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDAzMDdFRUYzLTdBQzEtNDg0OS1CRjc0LUIwOEFFODk2NzYzM18wNDFiYjg1My05ZmE3LTQwNzItYTA4ZS0xZGQwYjkzZGE5ZGUiDQp9"
+			"existingClusterId": "0729-105801-9d1bhewe",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDAzMDdFRUYzLTdBQzEtNDg0OS1CRjc0LUIwOEFFODk2NzYzM18xYzU3ZTJiOC0wZmQxLTQ2M2ItODYzZS1kOWIwZjc1MDBmYTUiDQp9"
 		}
 	}
 }
