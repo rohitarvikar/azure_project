@@ -1,0 +1,29 @@
+{
+	"name": "ds_list_of_proccessed_file_name",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_covidreportingdl",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "adls_filelist_for_loading_sqltable.json",
+				"fileSystem": "configs"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"filePath": {
+					"type": "string"
+				},
+				"table": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
