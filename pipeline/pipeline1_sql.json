@@ -29,7 +29,8 @@
 					"dataset": {
 						"referenceName": "ds_list_of_proccessed_file_name",
 						"type": "DatasetReference"
-					}
+					},
+					"firstRowOnly": false
 				}
 			},
 			{
