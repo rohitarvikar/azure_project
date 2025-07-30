@@ -10,6 +10,9 @@
 				"type": "string"
 			}
 		},
+		"folder": {
+			"name": "sql"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {

@@ -119,6 +119,9 @@
 				}
 			}
 		],
+		"folder": {
+			"name": "Sqlize"
+		},
 		"annotations": []
 	}
 }
