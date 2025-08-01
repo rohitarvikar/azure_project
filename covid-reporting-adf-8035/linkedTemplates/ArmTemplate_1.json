@@ -1561,13 +1561,21 @@
 								"referenceName": "tr_process_hospital_admission_data",
 								"type": "TriggerReference"
 							}
+						},
+						{
+							"type": "TumblingWindowTriggerDependencyReference",
+							"referenceTrigger": {
+								"referenceName": "tr_process_cases_deaths_data",
+								"type": "TriggerReference"
+							}
 						}
 					]
 				}
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/pipelines/pl_sql_casesdeaths_hospitaladmission')]",
-				"[concat(variables('factoryId'), '/triggers/tr_process_hospital_admission_data')]"
+				"[concat(variables('factoryId'), '/triggers/tr_process_hospital_admission_data')]",
+				"[concat(variables('factoryId'), '/triggers/tr_process_cases_deaths_data')]"
 			]
 		}
 	]
