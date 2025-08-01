@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1_sql",
+	"name": "pl_sql_casesdeaths_hospitaladmission",
 	"properties": {
 		"activities": [
 			{
