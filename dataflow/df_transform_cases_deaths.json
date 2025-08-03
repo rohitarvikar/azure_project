@@ -105,7 +105,7 @@
 				"          country_code_2_digit,",
 				"          country_code_3_digit,",
 				"          population = PivotCounts@population,",
-				"          {count_confirmed cases},",
+				"          count_confirmed_cases = {count_confirmed cases},",
 				"          count_deaths,",
 				"          reported_date,",
 				"          source",
