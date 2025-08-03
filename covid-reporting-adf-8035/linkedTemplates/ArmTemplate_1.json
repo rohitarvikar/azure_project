@@ -1199,7 +1199,7 @@
 						"          population,",
 						"          reported_date,",
 						"          source,",
-						"          { hospital_occupancy_count} = {count_Daily hospital occupancy},",
+						"          hospital_occupancy_count = {count_Daily hospital occupancy},",
 						"          icu_occupancy_count = {count_Daily ICU occupancy}",
 						"     ),",
 						"     skipDuplicateMapInputs: true,",
